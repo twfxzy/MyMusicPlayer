@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BCMusic</string>
+    <string name="app_TitleBar"> BCMusic</string>
+    <string name="isPlay">正播放:</string>
+    <string name="isPause">已暂停:</string>
+    <string name="isStop">已停止:</string>
+    <string name="isReady">已就绪:</string>
+    <string name="noMusic">无歌曲..  </string>
+    <string name="noMusicToast"> 当前文件夹内无歌曲,请选择其他文件夹 </string>
+
+    <string name="defaultMusicName">%%$$%%.mp3</string>
+    <string name="defaultMusicTime">00:00/00:00</string>
+    <string name="stop">停 止</string>
+    <string name="lastSong">上 首</string>
+    <string name="playOrPause">播放/暂停</string>
+    <string name="nextSong">下 首</string>
+    <string name="settings">设 置</string>
+
+    <string name="playMode0">-随机-</string>
+    <string name="playMode1">-单曲-</string>
+    <string name="playMode2">-全部-</string>
+    <string name="playMode3">-顺序-</string>
+
+
+    <string name="colorListViewClicked">#5FF14AD0</string>
+    <string name="colorListViewUnClicked">#00FEF2FF</string>
+</resources>

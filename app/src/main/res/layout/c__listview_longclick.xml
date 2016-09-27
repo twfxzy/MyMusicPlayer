@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:alpha="0.8"
+    android:background="@drawable/color_dialog_shape">
+
+    <TextView
+        android:id="@+id/deleteFromSource"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 删除源文件 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/deleteFromList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 从列表删除 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/changeFileName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 修 改 名 称 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/setOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 设 置 排 序 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/songInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 详 细 信 息 "
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/color_item_pressed"/>
+
+
+</LinearLayout>

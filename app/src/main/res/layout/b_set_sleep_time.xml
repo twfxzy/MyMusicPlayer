@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:alpha="0.8"
+    android:background="@drawable/color_dialog_shape">
+
+    <TextView
+        android:id="@+id/sleepTimeLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 未设置睡眠 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/set10min"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 设置10分钟 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/set20min"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text=" 设置20分钟 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_margin="3dp" />
+    <TextView
+        android:id="@+id/cancelSleep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:text="  取 消 睡 眠 "
+        android:background="@drawable/color_item_pressed"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/splitLine"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        />
+    <EditText
+        android:id="@+id/setSleepTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:layout_marginLeft="2dp"
+        android:hint=" 输入[1-60]"
+        android:singleLine="true"
+        android:maxLength="2"
+        android:digits="1234567890"
+        android:inputType="number" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/setSleepTimeConfirm"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/button_icon_confirm"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+        <ImageButton
+            android:id="@+id/setSleepTimeCancel"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/button_icon_cancel"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed"/>
+
+    </LinearLayout>
+
+</LinearLayout>

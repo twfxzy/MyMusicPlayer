@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9E40C7</color>
+    <color name="colorPrimaryDark">#030033</color>
+    <color name="colorAccent">#F14AD0</color>
+    <color name="colorListViewClicked">#FFB5E8</color>
+    <color name="colorListViewUnclicked">#FEF2FF</color>
+    <color name="BCMusicAppDefault">#FEF2FF</color>
+    <color name="splitLine">#AEADAF</color>
+
+    <color name="Button_Text">#d0155d</color>
+    <color name="Button0_Default">#E0A3FA</color>
+    <color name="Button0_Pressed">#C084D9</color>
+    <color name="Button0_Text">#750035</color>
+
+    <color name="Button1_Default">#C084D9</color>
+    <color name="Button1_Pressed">#9E40C7</color>
+    <color name="Button1_Text">#d0155d</color>
+
+    <color name="Button2_Default">#9E40C7</color>
+    <color name="Button2_Pressed">#6B2789</color>
+    <color name="Button2_Text">#F14AD0</color>
+
+</resources>

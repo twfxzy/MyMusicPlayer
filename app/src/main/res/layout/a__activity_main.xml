@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity_Main"
+    android:id="@+id/mainActivityAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/playerStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/isReady"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:id="@+id/musicName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/defaultMusicName"
+            android:layout_marginRight="2dp"
+            android:singleLine ="true"
+            android:ellipsize="middle"/>
+        <TextView
+            android:id="@+id/playMode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/songTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:text="@string/defaultMusicTime"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageButton
+            android:id="@+id/btnStop"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/button_icon_stop"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+
+        <ImageButton
+            android:id="@+id/btnLast"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/button_icon_last"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+        <ImageButton
+            android:id="@+id/btnStartOrPause"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_icon_play"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/button_icon_next"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed"/>
+        <ImageButton
+            android:id="@+id/btnSettings"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/button_icon_setting"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+
+    </LinearLayout>
+
+</LinearLayout>

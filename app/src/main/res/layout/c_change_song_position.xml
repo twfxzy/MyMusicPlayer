@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:alpha="0.8"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/color_dialog_shape">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/setPosition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:hint=" 请输入新位置"
+            android:singleLine="true"
+            android:maxLength="4"
+            android:digits="1234567890"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/positionRange"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/changePositionConfirm"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/button_icon_confirm"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed" />
+        <ImageButton
+            android:id="@+id/changePositionCancel"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/button_icon_cancel"
+            android:scaleType="centerInside"
+            android:background="@drawable/color_button_pressed"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

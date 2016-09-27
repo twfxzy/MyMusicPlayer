@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 默认情况 -->
+    <item >
+        <shape>
+            <!-- 填充 背景透明 -->
+            <solid android:color="@color/BCMusicAppDefault"/>
+            <!-- 圆角 -->
+            <corners android:radius="8dp" />
+            <!-- 描边 -->
+            <stroke android:width="2dp" android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+</selector>
